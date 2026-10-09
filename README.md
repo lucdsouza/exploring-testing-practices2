@@ -46,16 +46,19 @@ Para cada repositório, escolha uma prática ou dado de teste relevante e expliq
 
 ### Repositório 1 
 
-Repositório: `<URL_DO_REPOSITÓRIO>`
+Repositório: [https://github.com/paperless-ngx/paperless-ngx/](https://github.com/paperless-ngx/paperless-ngx/)
 
-URL TestMiner: `<URL_NO_TESTMINER>`
+URL TestMiner: [https://andrehora.github.io/testminer/#paperless-ngx/paperless-ngx](https://andrehora.github.io/testminer/#paperless-ngx/paperless-ngx)
 
-Explicação: `<SUA_EXPLICAÇÃO>`
+Explicação:
+Observa-se pela overview do projeto que temos 364 testes, dos quais apenas 7 são testes e2e, a discrepância da quantidade índica claramente que o projeto valoriza testes fáceis e rápidos de validação, reservando testes trabalhosos somente para os caminhos críticos. Observando os arquivos dos 7 testes e2e, implementados usando Playwright, é perceptível que o projeto os útiliza para garantir o funcionamento das telas principais como dashboard e detalhes dos documentos.
 
 ### Repositório 2
 
-Repositório: `<URL_DO_REPOSITÓRIO>`
+Repositório: [https://github.com/n8n-io/n8n](https://github.com/n8n-io/n8n)
 
-URL TestMiner: `<URL_NO_TESTMINER>`
+URL TestMiner: [https://andrehora.github.io/testminer/#n8n-io/n8n](https://andrehora.github.io/testminer/#n8n-io/n8n)
 
-Explicação: `<SUA_EXPLICAÇÃO>`
+Explicação:
+O n8n apresenta uma suíte de testes bem mais madura em relação ao projeto anterior. Podemos ver claramente a formação da pirâmide de testes ao analisar seus dados, onde temos na base 7.429 testes unitários ou de integração e 4.419 helpers; seguidos de 266 testes e2e e 12 testes smoke.
+Observamos também a inclusão de 203 testes de benchmark índicando que a equipe se preocupa em garantir a não regressão do desempenho do sistema.
