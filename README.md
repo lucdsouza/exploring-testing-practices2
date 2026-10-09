@@ -52,6 +52,7 @@ URL TestMiner: [https://andrehora.github.io/testminer/#paperless-ngx/paperless-n
 
 Explicação:
 Observa-se pela overview do projeto que temos 364 testes, dos quais apenas 7 são testes e2e, a discrepância da quantidade índica claramente que o projeto valoriza testes fáceis e rápidos de validação, reservando testes trabalhosos somente para os caminhos críticos. Observando os arquivos dos 7 testes e2e, implementados usando Playwright, é perceptível que o projeto os útiliza para garantir o funcionamento das telas principais como dashboard e detalhes dos documentos.
+![Paperless no Testminer](./assets/paperless.png)
 
 ### Repositório 2
 
@@ -62,3 +63,4 @@ URL TestMiner: [https://andrehora.github.io/testminer/#n8n-io/n8n](https://andre
 Explicação:
 O n8n apresenta uma suíte de testes bem mais madura em relação ao projeto anterior. Podemos ver claramente a formação da pirâmide de testes ao analisar seus dados, onde temos na base 7.429 testes unitários ou de integração e 4.419 helpers; seguidos de 266 testes e2e e 12 testes smoke.
 Observamos também a inclusão de 203 testes de benchmark índicando que a equipe se preocupa em garantir a não regressão do desempenho do sistema.
+![n8n no Testminer](./assets/n8n.png)
